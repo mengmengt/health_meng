@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--ElementUI样式引入-->
+    <link rel="stylesheet" href="../js/index.css" />
+    <script src="../js/vue.js"></script>
+    <script src="../js/index.js"></script>
+
+</head>
+
+<body>
+<div id="app">
+    <el-container>
+        <el-header>header</el-header>
+
+        <el-container>
+            <el-aside width="200px">side</el-aside>
+
+            <el-container>
+                <el-main>main</el-main>
+                <el-footer>footer</el-footer>
+            </el-container>
+
+        </el-container>
+
+    </el-container>
+</div>
+<style>
+    .el-header {
+        background: #B3C0D1;
+        color: #333;
+        text‐align: left;
+        line‐height: 60px;
+    }
+    .el-footer {
+        background: #B3C0D1;
+        color: #333;
+        text‐align: left;
+        line‐height: 60px;
+    }
+    .el-aside{
+        background: #D3DCE6;
+        color: #333;
+        text‐align: center;
+        line‐height: 200px;
+    }
+    .el-main{
+        background:  #E9EEF3;
+        color: #333;
+        text‐align: center;
+        line‐height: 590px;
+    }
+</style>
+
+   <script>
+        new Vue({
+             el:'#app'
+         });
+   </script>
+
+</body>
+</html>
