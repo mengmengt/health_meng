@@ -29,7 +29,7 @@
                      <version>2.2</version>
                      <configuration>
                        <path>/</path>
-                       <port>8080</port>
+                       <port>82</port>
                        <update>true</update>
                        <uriEncoding>UTF-8</uriEncoding>
                      </configuration>
