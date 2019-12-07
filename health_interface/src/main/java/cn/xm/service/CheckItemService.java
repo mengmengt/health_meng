@@ -4,6 +4,8 @@ import cn.xm.entity.PageResult;
 import cn.xm.entity.QueryPageBean;
 import cn.xm.pojo.CheckItem;
 
+import java.util.List;
+
 /**
  * @Author: xumeng
  * @Date: 2019/12/3 11:41
@@ -45,4 +47,10 @@ public interface CheckItemService {
      */
 
     public CheckItem findById(Integer id);
+
+    /**
+     * 查询所有检查项
+     */
+
+    public List<CheckItem> findAll();
 }

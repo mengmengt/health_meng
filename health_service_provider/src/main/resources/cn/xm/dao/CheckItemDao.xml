@@ -62,4 +62,10 @@
     <select id="findById" parameterType="int" resultType="cn.xm.pojo.CheckItem">
         select * from t_checkitem where id = #{id}
     </select>
+
+
+    <!--查询所有检查项-->
+    <select id="findAll" resultType="cn.xm.pojo.CheckItem">
+        select * from t_checkitem
+    </select>
 </mapper>

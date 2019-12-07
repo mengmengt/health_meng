@@ -5,6 +5,8 @@ import cn.xm.entity.QueryPageBean;
 import cn.xm.pojo.CheckItem;
 import com.github.pagehelper.Page;
 
+import java.util.List;
+
 
 /**
  * @Author: xumeng
@@ -42,4 +44,10 @@ public interface CheckItemDao {
       */
 
      CheckItem findById(Integer id);
+
+    /**
+     * 查询所有检查项
+     */
+
+    List<CheckItem> findAll();
 }
